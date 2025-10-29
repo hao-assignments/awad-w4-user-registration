@@ -21,8 +21,8 @@ async function bootstrap() {
   app.useGlobalPipes(ThrowFirstErrorValidationPipe);
 
   const config = new DocumentBuilder()
-    .setTitle('Lapin learn')
-    .setDescription('Lapin learn API description')
+    .setTitle('User Registration API')
+    .setDescription('User Registration API description')
     .setVersion('1.0')
     .addBearerAuth()
     .build();
